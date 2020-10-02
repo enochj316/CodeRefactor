@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
 }
-
+/* Background color */
 body {
     background-color: #d9dcd6;
 }
@@ -22,6 +22,7 @@ body {
     font-size: 48px;
 }
 
+/* Logo color */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -33,11 +34,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* Navigation bar styling  */
+/* Navigation bar list styling  */
 .header nav ul {
     list-style-type: none;
 }
-/* Navigation bar styling  */
+/* Navigation bar list styling  */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -48,7 +49,7 @@ a {
     text-decoration: none;
 }
 /* article fonts */
-p {
+.figcaption {
     font-size: 16px;
 }
 /* Background image styling */
@@ -60,12 +61,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* float left + margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* float right + margin */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -101,7 +102,7 @@ p {
     text-align: center;
 }
 
-/* aside styling Image */
+/* aside image styling */
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -110,7 +111,7 @@ p {
 
 
 
-/* Article Content styling */
+/* aside content styling */
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,10 +121,12 @@ p {
     color: #ffffff;
 }
 
+/* aside image height */
 .content-section img {
     max-height: 200px;
 }
 
+/* aside font size + margin  */
 .content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -138,7 +141,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Footer font size */
 .footer h2 {
     font-size: 20px;
 }
